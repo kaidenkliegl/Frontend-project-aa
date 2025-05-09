@@ -1,0 +1,14 @@
+
+
+.hidden {
+    display: none;
+  }
+
+  .profile-dropdown {
+    position: absolute;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    list-style: none;
+    z-index: 100;
+  }

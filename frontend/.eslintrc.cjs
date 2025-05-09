@@ -1,6 +1,16 @@
 module.exports = {
   root: true,
   env: { browser: true, es2020: true, node: true },
+  overrides: [
+    {
+      files: [
+        "src/context/*.jsx"
+      ],
+      rules: {
+        'react-refresh/only-export-components': 'off'
+      }
+    }
+   ],
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
